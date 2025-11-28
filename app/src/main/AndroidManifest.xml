@@ -11,6 +11,10 @@
 
         <!-- PLAYER UI CHẠY ĐẦU -->
         <activity
+            android:name=".Playlist"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:name=".PlayerActivity"
             android:exported="true">
             <intent-filter>
